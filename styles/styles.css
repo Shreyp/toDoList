@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+.form-control {
+  margin: 0.5em;
+}
+
+#addBtn {
+  margin: 0.5em;
+}
+
+#table-head {
+  text-align: center;
+}
+
+.tsk-complete {
+  border: 3px green solid;
+}

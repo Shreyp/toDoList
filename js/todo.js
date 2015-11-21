@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-  $(".btn-secondary").on("click", function(e) {
+  $("#newDate").Zebra_DatePicker({
+    format: "m/d/y"
+  });
+
+  $(".btn-primary").on("click", function(e) {
     e.preventDefault();
 
     var newDate = $("#newDate").val();
@@ -26,7 +30,10 @@ $(document).ready(function() {
     });
 
   $("table").on("click", ".btn-success", function() {
-    $(this).parent().parent().addClass("tsk-complete"); 
+    $(this).parent().parent().addClass("complete").animate({
+      opacity: 0.2
+    }); 
+    $(".btn-danger").click(false);
    });
 
 });

@@ -15,5 +15,13 @@ h1 {
 }
 
 .tsk-complete {
-  border: 3px green solid;
+ background-image: 
+}
+
+#newToDo {
+  width: 1510px;
+}
+
+.complete {
+  border: green 2px solid;
 }
